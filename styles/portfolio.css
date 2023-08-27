@@ -1,0 +1,14 @@
+/* Common Shared Styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related Styles */
+nav{
+    display: flex;
+}
+.nav-title{
+    color: var(--dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
