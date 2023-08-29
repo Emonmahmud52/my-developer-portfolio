@@ -207,3 +207,48 @@ main section {
     line-height: 28px;
     padding-bottom: 20px;
 }
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer related Styles */
+
+footer{
+    display: flex;
+    gap: 100px
+    ;
+    background-color: #FFF8F3;
+    padding: 130px 250px;
+    margin-top: 130px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+.footer-column input[type="text"], .footer-column input[type="email"]{
+    display: block;
+    padding: 18px 300px 18px 18px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.footer-column textarea{
+    display: block;
+    padding: 18px 300px 18px 18px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.text-left{
+    text-align: left;
+}
+.social-links a{
+    margin-right: 20px;
+}
