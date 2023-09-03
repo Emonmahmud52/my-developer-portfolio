@@ -252,3 +252,111 @@ footer{
 .social-links a{
     margin-right: 20px;
 }
+
+/* responsive for small devices */
+
+@media screen and (max-width: 576px) {
+
+    .header{
+        background-image: none;
+    }
+    .banner {
+        padding: 30px 20px 0px 20px;
+        gap: 35px;
+    }
+    
+    nav, nav >ul, .skills-container, .resume-container, footer, .about-info-container, .banner{
+        flex-direction: column;
+    }
+
+    nav>ul{
+        gap: 15px;
+    }
+    .btn-primary{
+        padding: 10px 30px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    #what-i-do-description{
+        padding: 30px 25px;
+    }
+
+    .resume-column{
+        padding: 0px 20px;
+    }
+
+    .about{
+        padding: 80px 40px;
+    }
+
+    footer{
+        padding: 130px 50px;
+    }
+    .footer-column {
+        width: 80%;
+    }
+    .footer-column input[type="text"], .footer-column input[type="email"]{
+        padding: 18px 100px 18px 18px;
+    }
+    .footer-column textarea{
+        padding: 18px 120px 18px 18px;
+    }
+
+}
+
+/* responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .banner{
+        flex-direction: column;
+        padding: 30px 30px 0px 0px;
+        gap: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+
+    nav{
+        margin: 0px 70px;
+    }
+
+    .btn-primary{
+        padding: 15px 20px;
+        margin-right: 0px ;
+    }
+    .skills-container{
+        flex-direction: column;
+    }
+
+    #what-i-do-description{
+        padding: 30px 25px;
+    }
+    .resume-title{
+        line-height: 35px;
+    }
+
+    .about{
+        padding: 60px 30px;
+    }
+
+    .about-info-container{
+        justify-content: space-between;
+        gap: 5px;
+    }
+    .about-description{
+        line-height: 35px;
+    }
+
+    footer{
+        padding: 130px 50px;
+    }
+    .footer-column {
+        width: 80%;
+    }
+    .footer-column input[type="text"], .footer-column input[type="email"] {
+        padding: 18px 100px 18px 18px;
+    }
+
+    .footer-column textarea{
+        padding: 18px 120px 18px 18px;
+    }
+}
